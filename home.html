@@ -20,10 +20,12 @@
     <!-- HEADER SECTION  -->
     <header class="header">
         
+        <!-- NAV LOGO  -->
         <a href="home.html" class="logo"> Vegrocery 
             <i class="fas fa-shoppig-basket"></i> 
         </a>
 
+        <!-- NAV MENU  -->
         <nav class="navbar">
             <ul class="nav-list">
                 <li class="nav-item">
@@ -47,24 +49,112 @@
             </ul>
         </nav>
 
-        <div class="icons">
+        <!-- NAV ICONS  -->
+        <div class="nav-icons">
             <div id="menu-btn" class="fas fa-bars"></div>
             <div id="search-btn" class="fas fa-search"></div>
             <div id="cart-btn" class="fas fa-shopping-cart"></div>
             <div id="login-btn" class="fas fa-user"></div>
         </div>
-
+        
+        <!-- SEARCH BUTTON  -->    
         <form action="davefdev.com" class="search-form">
             <input type="search" placeholder="Search here..." id="search-box">
             <label for="search-box" class="fas fa-search"></label>
         </form>
     
+        <!-- SHOPPING CART BUTTON  --> 
+        <div class="shopping-cart">
+            <div class="cart-box">
+                <i class="fas fa-times"></i>
+                <img src="image/cart-1.jpg" alt="">
+                <div class="content">
+                    <h3>Vegan Sausages</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">X</span>
+                    <span class="price">£3.50</span>
+                </div>
+            </div>
+            <div class="cart-box">
+                <i class="fas fa-times"></i>
+                <img src="image/cart-2.jpg" alt="">
+                <div class="content">
+                    <h3>Moroccan Hummus</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">X</span>
+                    <span class="price">£2.50</span>
+                </div>
+            </div>
+            <div class="cart-box">
+                <i class="fas fa-times"></i>
+                <img src="image/cart-3.jpg" alt="">
+                <div class="content">
+                    <h3>Avocados</h3>
+                    <span class="quantity">3</span>
+                    <span class="multiply">X</span>
+                    <span class="price">£1.05</span>
+                </div>
+            </div>
+            <h3 class="total"> Total : <span>£9.15</span> </h3>
+            <a href="#" class="btn">checkout cart</a>
+        </div>
+    
+        <!--  LOGIN FORM  -->
+        <form action="" class="login-form">
+            <h3>Login Form</h3>
+            <input type="email" placeholder="please enter your email" class="box">
+            <input type="password" placeholder="please enter your password" class="box">
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <input type="submit" value="login now" class="btn">
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have an account? <a href="#">create one</a></p>
+        </form>
+    
+
     </header>
     <!--  HOME SESTION  -->
 
-    <section class="home">
+    <section class="carousel">
 
+        <div class="slides-container">
 
+            <div class="slide active">
+                <div class="content">
+                    <span>Orannic and irresistible</span>
+                    <h3>up to 50% off</h3>
+                    <a href="#" class="btn">shop now</a>
+                </div>
+                <div class="image">
+                    <img src="image/home-img-1.png" alt="">
+                </div>
+            </div>
+    
+            <div class="slide">
+                <div class="content">
+                    <span>fresh and organic</span>
+                    <h3>Big discounts for first orders!</h3>
+                    <a href="#" class="btn">shop now</a>
+                </div>
+                <div class="image">
+                    <img src="image/home-img-2.png" alt="">
+                </div>
+            </div>
+    
+            <div class="slide">
+                <div class="content">
+                    <span>fresh and organic</span>
+                    <h3>All organic, no unnatural pesticides!</h3>
+                    <a href="#" class="btn">shop now</a>
+                </div>
+                <div class="image">
+                    <img src="image/home-img-3.png" alt="">
+                </div>
+            </div>
+    
+        </div>
 
     </section>
 
