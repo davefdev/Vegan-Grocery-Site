@@ -11,10 +11,10 @@
   transition: ease 0.3s linear;
 }
 
-$green: #bac34e;
+$green: #73b634;
 $black: #222;
 $white: #fff;
-$light-color: #666;
+$light-color: rgb(133, 121, 121);
 $light-bg: #f3f3f3;
 $border: 0.1rem solid rgba(0, 0, 0, 0.1);
 $box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
@@ -26,11 +26,40 @@ $box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 65%;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
 section {
-  padding: 3rem 9%;
+  padding: 3.25rem 10%;
+}
+
+.heading {
+  background: url(../image/heading-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 11rem;
+  padding-bottom: 7rem;
+
+  h1 {
+    color: $black;
+    font-size: 4rem;
+  }
+
+  p {
+    padding-top: 1rem;
+    font-size: 2rem;
+    color: $light-color;
+
+    a {
+      color: $black;
+      padding-right: 0.5rem;
+
+      &:hover {
+        color: $green;
+      }
+    }
+  }
 }
