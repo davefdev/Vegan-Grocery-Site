@@ -60,6 +60,11 @@ header {
   }
 
   .navbar {
+    .nav-list {
+      display: flex;
+      list-style-type: none;
+    }
+
     a {
       font-size: 1.7rem;
       color: $light-color;

@@ -54,6 +54,13 @@ header .logo i {
   padding-right: 0.5rem;
 }
 
+header .navbar .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
 header .navbar a {
   font-size: 1.7rem;
   color: #857979;
